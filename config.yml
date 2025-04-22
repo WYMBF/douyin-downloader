@@ -20,7 +20,8 @@ link:
   # -  https://v.douyin.com/iRGuJcW8/
   # -  https://v.douyin.com/iRGHQY5t/
   # - https://www.douyin.com/user/MS4wLjABAAAAXrGDowccDgJnarm2l95p80ojY5UpD-4VE_4WJwXcjvAMzQ79Ol1xizyLH8W3lgPX
-  - https://www.douyin.com/user/MS4wLjABAAAA6O7EZyfDRYXxJrUTpf91K3tmB4rBROkAw-nYMfld8ss
+   - https://www.douyin.com/user/MS4wLjABAAAA2MzfuK1rmJ6GzmKuEJ6ssV4OKx3BdToc8cyGuop8oKQ
+#  - https://v.douyin.com/JUVdN8EQ9F8
 
 # 下载保存位置, 默认当前文件位置
 # 必选
@@ -44,7 +45,7 @@ json: True
 
 
 # 下载时间范围
-start_time: "2024-12-29"
+start_time: "2024-10-29"
 end_time: "2024-12-30"
 
 
@@ -112,11 +113,14 @@ cookies:
   # passport_csrf_token: xxx
   # sid_guard: xxx
 
-  msToken: 710-fIIacqPfoNUNM8EKjH2ev0veFV2YZCtCfs_HoN7kjpBKubLAODdh0nStKywolHK2nsJFHmdimUN23q-lo41pxjuiNMoqG1p_yUoIKU0CJ9bX-Q0638LXozcxspQnrzDnHB4M_3Hu3GljVuPYvv-8nHrxp4Xqkw-Bcr0MeothxDuPtHlEBA==
-  ttwid: 1%7Cxo2A_Uas39HcSPeQYZRGlCLpHonxCq5l8gMlrUPsh3I%7C1733400452%7C9f770c01cd093794153133a14108c93b5b6e6e18971372c21ecffe37f1938da0
-  odin_tt: a19f20351de5ed35a078f09115d098328b025656113ec0e35dfc4f7e1cf04dea5edd7d8176cf7070e0ff8f53414adeb8
-  passport_csrf_token: c2a7091feddce96551be4436e03ca3f3
-  sid_guard: 5e5adf6c506e880b1e0959afb5f6cb80%7C1739188609%7C5183984%7CFri%2C+11-Apr-2025+11%3A56%3A33+GMT
+  msToken: T2StmrL7YpwfRwvaOJmS04Aa-0qDCZzFCwWWIydNPtBfkjpMGT4S15lzuD9g5hpXs5g4o6BcgrIPTPipuokeEuIfAR0U2xGHgIdjCa7vcDskDKIhXkRwxHT4-zNEly5ZINsrvU5kwiB95jCDczCTBEU3IYlSLCOy0RKUA9sL0Q==
+
+  ttwid: 1%7CeKcMeLVehkUAE0qfApkuFcH_cmFWWZDb8omtEHmGHzk%7C1744904857%7Ccf118106c33b5673d7c75a753148ebe91e67f69ec14b66dedcebf251f81f654c
+
+  odin_tt: 3ae100c68894e735c28506695c2e7b2d6627d773f23a83dd40710b1db3199c304b0d93e883f7e187b94154d004ec85aaff33458be9e3bca53ced1be62811ae0d3c0b8a1acb4803be8ed5778ec4d65f73
+
+  passport_csrf_token: 8f8cd7d96a8cdeca189e16ffac1d0d15
+  sid_guard: 6bedb128b2b537858f146d7094ce7616%7C1745332672%7C5184000%7CSat%2C+21-Jun-2025+14%3A37%3A52+GMT
 
 # cookie 请登录网页抖音后F12查看
 # cookies 和 cookie 二选一, 要使用这种形式, 请注释上面的cookies及包含的所有键值对
