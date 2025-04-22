@@ -12,7 +12,7 @@
 # 可以设置多个链接, 确保至少一个链接
 # 必选
 link:
-  # -  https://v.douyin.com/kVefc81/
+#   -  https://v.douyin.com/kVefc81/
   # -  https://v.douyin.com/kVdkdxY/
   # -  https://v.douyin.com/kVdMcrr/
   # -  https://v.douyin.com/iRGu2mBL/
@@ -20,8 +20,10 @@ link:
   # -  https://v.douyin.com/iRGuJcW8/
   # -  https://v.douyin.com/iRGHQY5t/
   # - https://www.douyin.com/user/MS4wLjABAAAAXrGDowccDgJnarm2l95p80ojY5UpD-4VE_4WJwXcjvAMzQ79Ol1xizyLH8W3lgPX
-   - https://www.douyin.com/user/MS4wLjABAAAA2MzfuK1rmJ6GzmKuEJ6ssV4OKx3BdToc8cyGuop8oKQ
+#   - https://www.douyin.com/user/MS4wLjABAAAA2MzfuK1rmJ6GzmKuEJ6ssV4OKx3BdToc8cyGuop8oKQ
 #  - https://v.douyin.com/JUVdN8EQ9F8
+#  - https://v.douyin.com/7bvE4UPbINs/
+#  - https://v.douyin.com/1sf16MALaYQ/
 
 # 下载保存位置, 默认当前文件位置
 # 必选

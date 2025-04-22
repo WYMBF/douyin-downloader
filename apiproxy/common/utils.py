@@ -69,7 +69,9 @@ class Utils(object):
 
         for i, j in res.cookies.items():
             return j
+        return None
 
+    #   将混淆后的结果 base64-like 编码为最终签名
     def getXbogus(self, payload, form='', ua=apiproxy.ua):
         xbogus = self.get_xbogus(payload, ua, form)
         params = payload + "&X-Bogus=" + xbogus
@@ -96,6 +98,7 @@ class Utils(object):
 
         return xbogus
 
+    #将特征数组错位排列，并用 _0x30492c 混淆
     def get_garbled_string(self, arr2):
         p = [
             arr2[0], arr2[10], arr2[1], arr2[11], arr2[2], arr2[12], arr2[3], arr2[13], arr2[4], arr2[14],
@@ -113,6 +116,7 @@ class Utils(object):
 
         return f
 
+    #生成核心特征数组（含 MD5 + 时间 + 混淆位）
     def get_arr2(self, payload, ua, form):
         salt_payload_bytes = hashlib.md5(hashlib.md5(payload.encode()).digest()).digest()
         salt_payload = [byte for byte in salt_payload_bytes]
@@ -157,6 +161,7 @@ class Utils(object):
 
         return arr2
 
+    #	核心加密函数，实现 RC4 类似算法
     def _0x30492c(self, a, b):
         d = [i for i in range(256)]
         c = 0
